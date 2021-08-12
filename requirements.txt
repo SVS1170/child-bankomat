@@ -1,0 +1,10 @@
+Django~=3.2.5
+PyMySQL~=1.0.2
+usb~=0.0.83.dev0
+qrcode~=7.2
+six~=1.16.0
+pyserial~=3.5
+argparse~=1.4.0
+escpos~=1.9
+pdf2image~=1.16.0
+reportlab~=3.6.1

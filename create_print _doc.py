@@ -39,7 +39,8 @@ register_fonts()
 # Create an image with 300DPI, 58mm by 150mm.
 def create_report():
     dpi = 165
-    mmheight = 15
+    mmwidth = 58
+    mmheight = 150
     pixwidth = int(mmwidth / 25.4 * dpi)
     pixheight = int(mmheight / 25.4 * dpi)
     im = Image.new("RGB", (pixwidth, pixheight), "white")

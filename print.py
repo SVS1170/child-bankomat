@@ -94,7 +94,7 @@ def print_qr():
     # content = "google.com"
 
     p.image(forecast_icon())
-    # p.text(f"{content}")
+    p.text(f"{content}")
     # p.qr(content, ec=3, center=True)
     # p.text("\n")
     # p.text("\n")

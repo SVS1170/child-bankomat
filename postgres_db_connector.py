@@ -9,6 +9,7 @@ con = psycopg2.connect(
     password=config["database"]["passwd"],
     host=config["database"]["host"],
     port=int(config["database"]["port"])
+)
 
 
 def create_table(name):
